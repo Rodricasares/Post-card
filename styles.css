@@ -1,0 +1,66 @@
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+body {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	background: black;
+}
+p {
+	color: black;
+}
+
+.postcard {
+	margin: auto;
+	background: white;
+	width: 400px;
+	height: 300px;
+}
+
+.postcard-header {
+	display: flex;
+	flex-direction: row;
+	background: white;
+	width: 400px;
+	justify-content: space-between;
+}
+h1 {
+	margin: 0px;
+	padding: 0px;
+}
+
+.postcard-body {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	display: flex;
+}
+
+.body-left {
+	margin: 5px 0 0 0;
+	font-size: 11px;
+	color: black;
+	padding: 5px;
+}
+
+.body-right {
+	padding: 5px;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+.button-btn {
+	padding: 0px 0px 10px 0px;
+	background: rgb(211, 204, 198);
+	width: 150px;
+	height: 20px;
+	border-radius: 4px;
+	border: 1px solid #222020;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+.button-btn:hover {
+	background: #5f5d5b;
+	color: rgb(26, 24, 24);
+}
